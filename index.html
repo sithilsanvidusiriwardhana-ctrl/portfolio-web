@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfolio — Sithil Sanvidu</title>
+  <title>Portfolio — Your Name</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <h1 class="logo">Sithil Sanvidu</h1>
+      <h1 class="logo">Your Name</h1>
       <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
       <nav class="site-nav">
         <a href="#about">About</a>
@@ -22,15 +22,15 @@
   <main>
     <section class="hero">
       <div class="container">
-        <h2>Hi — I'm Sithil Sanvidu.</h2>
-        <p>I'm a UCSC student aspiring to become a Software Engineer. I build web apps and learn full‑stack development.</p>
+        <h2>Hi, I'm Your Name.</h2>
+        <p>I'm a developer who builds simple, useful web experiences.</p>
         <p><a class="btn" href="#projects">See my work</a></p>
       </div>
     </section>
 
     <section id="about" class="container about">
       <h3>About</h3>
-      <p>UCSC student focused on software engineering, data structures, and web development. Familiar with JavaScript, Python, and Git. Open to internships and junior roles.</p>
+      <p>Short paragraph about you. Replace this with your bio, skills, and interests.</p>
     </section>
 
     <section id="projects" class="container projects">
@@ -60,12 +60,21 @@
         <textarea name="message" placeholder="Message" required></textarea>
         <button class="btn" type="submit">Send</button>
       </form>
+      
+      <div id="dataSection" class="data-section">
+        <h4>Submitted Entries</h4>
+        <div class="controls">
+          <button id="clearDataBtn" class="btn-secondary">Clear All</button>
+          <span id="entryCount" class="entry-count">Entries: 0</span>
+        </div>
+        <div id="dataDisplay" class="data-display"></div>
+      </div>
     </section>
   </main>
 
-    <footer class="site-footer">
+  <footer class="site-footer">
     <div class="container">
-      <small>© <span id="year"></span> Sithil Sanvidu</small>
+      <small>© <span id="year"></span> Your Name</small>
     </div>
   </footer>
 
